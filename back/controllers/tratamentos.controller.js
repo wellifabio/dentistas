@@ -25,6 +25,7 @@ const readAll = (req, res) => {
 const readProf = (req, res) => {
     con.query(Tratamento.readProf(req.params.id), (err, result) => {
         if (err == null) {
+            //Pattern de Estrutura Composite + Criação Factory + Criação Builder
             res.json(Composite.profissional(result)).end();
         } else {
             res.json(err).end();

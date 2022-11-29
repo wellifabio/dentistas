@@ -1,7 +1,9 @@
 class Profissional {
-
+    
+    //Pattern Composite
     consultas = [];
 
+    //Pattern Builder
     constructor(data) {
         this.id = data.profissional_id;
         this.nome = data.nome;

@@ -2,6 +2,8 @@ const Profissional = require('./Profissional');
 const Consulta = require('./Consulta');
 const Tratamento = require('./Tratamento');
 
+//Pattern de Estrutura Composite (Objeto Profissional composto por outros objetos Consultas e Tratamentos)
+//Pattern Criação Factory (Função que fabrica um objeto)
 const profissional = (lista) => {
     let consultas = [];
     let i = 0;

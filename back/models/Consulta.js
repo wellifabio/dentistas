@@ -1,7 +1,9 @@
 class Consulta {
 
+    //Pattern Composite
     tratamentos = [];
 
+    //Pattern Builder
     constructor(data) {
         this.id = data.consulta_id;
         this.paciente = data.paciente;

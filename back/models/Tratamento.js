@@ -1,4 +1,5 @@
 class Tratamento {
+    //Pattern Builder
     constructor(data) {
         this.id = data.tratamento_id;
         this.nome = data.tratamento;
